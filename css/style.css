@@ -3,6 +3,9 @@
     box-sizing: border-box;
 
 }
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 header {
     display: flex;
     justify-content: space-between;
@@ -28,7 +31,7 @@ header ul li{
 }
 header ul li a{
     text-decoration: none;
-    color: white;
+    color: whitesmoke;
     font-size: 13px;
     
 }
@@ -53,35 +56,40 @@ header ul li a{
     
 }
 .hero .hero-inner h1{
-    margin-left: -123px;
-  margin-bottom: 30px;
-  font-size: 30px;
-  font-family: "tomatoe";
+    margin-left: -121px;
+  margin-bottom: 12px;
+  font-size: 21px;
+  
    
 }
 .hero .hero-inner p{
-    margin-left: -121px;
-    font-size: 15px;
+    margin-left: -98px;
+    font-size: 11px;
+    font-family: "tomatoe";
+
 
 }
 
 
 .sign-up{
     width: 100%;
-    background-color: whitesmoke;
+    background-color: rgb(185 183 183 / 46%);
 }
 .sign-up h2{
-    padding-bottom: 0px;
-    font-family: poppins;
-    font-weight: bold;
-    font-size: 20px;
+    padding: 5px;
+    color: #616265;
+    margin: 0 auto;
+    text-align: center;
+
+    font-size: 13px;
 }
 .sign-up p{
     margin-top: 15px;
-    font-family: "poppins";
-    font-size: 10px;
-    padding: 10px;
+   color: rgb(124, 117, 117);
+    font-size: 12px;
+    padding: 15px;
     text-align: center;
+
 }
 .sign-up img{
     width: 100%;
@@ -89,46 +97,60 @@ header ul li a{
      
 }
 .sign-up .buttonsign{
-    width: 180px;
+    width: 150px;
     height: 50px;
     background-color: chocolate;
     font-size: 20px;
     color: white;
     border-style: none;
-    
-}
-
-.sign-up{
+    margin-top: 10px;
+    /* margin-bottom: 20px; */
+    /* margin-left: 56px; */
+    display: block;
+    text-transform: uppercase;
     text-align: center;
-    background-color: rgb(185, 183, 183);
-    padding-bottom: 10px;
+    margin: 0 auto;
+    /* margin-bottom: 20px; */
+    
+    
+    
+    
 }
 .comments{
     font-family: sans-serif;
-    background-color: white;
-    color: grey;
-    background: rgb(243, 237, 237);
+    
+    
 }
 .comments h2 {
-    font-size: 30px;
+    font-size: 18px;
     text-align: center;
-    padding: 75px;
-    color: rgb(117, 112, 112);
+    padding: 45px;
+    color: #616265;
     background-color: white;
 }
 .comments  .comment-items{
     font-size: 15px;
     padding-bottom: 20px;
     
-}
-.comment-inner .comment-items {
-    margin: 20px;
 
+
+    
+    
+}
+.comments .comment-inner .comment-items{
+    padding: 10px;
+    
+}
+.comments .comment-inner{
+    background-color: #F8F8F8;
+    padding: 20px;
+    margin-bottom: 20px;
 }
 .comment-inner .comment-items h4 {
     padding-top: 20px;
-    color: rgb(121, 116, 116);
+    color:393939;
     font: 13px;
+    margin-bottom: 30px;
 }
 .services .about-items{
     text-align: center;
@@ -140,10 +162,14 @@ header ul li a{
     text-align: center;
     background-color: #eca052;
     color: white;
-    height: 200px;
-    font-size: 25px;
-    padding-top: 30px;
+    padding: 5%;
+    font-size: 13px;
+    
 }
+.subscribe h3{
+    font-size: 20px;
+}
+
 .subscribe .newsletter{
     display: flex;
     margin: 20px;
@@ -159,7 +185,8 @@ header ul li a{
     margin-top: 27px;
 }
 .subscribe  form .aa{
-    background-color:grey;
+
+    background-color: #575350;
     width: 100px;
     height: 40px;
     color: white;
@@ -190,23 +217,26 @@ header ul li a{
 footer{
     /* display: flex; */
     justify-content: center;
-    background: black;
+    background:#0a0a0a;
     color: #ffffff;
-    height: 300px;
+   
+    text-align: center;
+    
 
 
 
 }
 footer img{
     width: 40px;
-    position: relative;
-    top: 30px;
     left: 130px; 
     margin-bottom: 35px;
     text-align: center;
 }
 footer ul{
     list-style: none;
+    display: flex;
+    margin-bottom: 10px ;
+    margin-left: 22px;
 
 
 }
@@ -215,28 +245,31 @@ footer ul li{
     margin-top: 20px;
 }
 footer ul li a{
-    color: #c2b0b0;
+    color: #919190;
     text-decoration: none;
-    margin-left: 10px;
-    font-size: 13px;
+    margin-left: 4px;
+    font-size: 12px;
     margin-bottom: 20px;
 }
 
 footer hr{
-    width:100px ; 
+    width: 100%; ; 
     height: 2px;
-    background-color: #080808;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    margin: 0 auto;}
+    background-color:#383838;
+   margin-top: 10px;
+   margin-bottom: 10px;
+    /* margin: 14px auto; */
+}
 
 footer p{
     display: inline;
-    margin: 0 auto;
-    margin-top: 30px;
+  
+    /* max-width: 320px; */
     margin-bottom: 70px;
     justify-content: center;
     text-align: center;
+    font-size: 12px;
+    color: #A2A2A0;
 }
     
     
@@ -256,31 +289,35 @@ footer p{
         padding: 5px;
         margin: 5px;
     }
-    .hero .hero-inner{
-        margin: -56px;
-        font-size: 10px;
-        transform: translate(-50%,-50%);
-    }
-     .hero .hero-inner h1{
-         
-         justify-content: center;
-         font-size: 15px;
-         margin-left: 47px;
-
-     }
-     .hero .hero-inner  p{
-    font-size: 5px;
-    padding-right: 25px;
-    justify-content: center;
-    font-size: 15px;
-    text-align: center;
-    font-family: poppins;
+   .hero .hero-inner{
+       align-items: center;
+       margin: 0 auto;
+       justify-content: center;
+   }
     
-}
+         .hero .hero-inner h1{
+          position: relative;
+          transform: translate(-50% -50%);
+         }
+        .hero .hero-inner  p{            
+            transform: translate(-50% -50%);
+         }
+
+         .sign-up .buttonsign{
+            margin-left: 203px
+         }
+         .sign-up h2{
+         margin: 0 auto;
+         font-size: 10px;
+         }
       
      .sign-up .buttonsign :hover{
          color: yellow;
      }
+     .subscribe h3{
+         font-size: 20px;
+     }
+     
      .subscribe .newsletter.form.name{
          border-radius: 20px 0px 20px 0px;
          margin-left: 2px;
@@ -291,7 +328,7 @@ footer p{
      }
    
     footer hr{
-        width:120px ; 
+        width:60px ; 
         height: 2px;
         background-color: #111010;
         margin: 0 auto;
@@ -299,6 +336,13 @@ footer p{
         border: black;
         margin-bottom: 40px;
         
+        
+    }
+    footer{
+        padding: 5%;
+    }
+    footer p{
+font-size: 15px;
     }
 }
 
@@ -315,22 +359,43 @@ footer p{
     margin: 5px;
 }
 .hero .hero-inner{
-    margin: -56px;
+  margin-left: -288px;
     font-size: 20px;
 }
  .hero .hero-inner h1{
     
      justify-content: center;
      font-size: 30px; 
-     margin-left: -140px;
+     margin-left: 87px;
+     
 
  }
  .hero .hero-inner p
  {justify-content: center;
     font-size: 20px; 
-    margin-left: -104px;
-
-
+    margin-left: 80px;
+ }
+ .sign-up h2{
+     font-size: 30px;
+     margin: 0 auto;
+     font-weight: bold;
+     text-align: center;
+ }
+ .sign-up p{
+     width: 80%;
+     margin: 0 auto;
+     font-size: 15px;
+ }
+ .sign-up img{
+    width: 400px;
+    height: 0 auto;
+    margin-left: 172px;
+    margin-top: 10px;
+    text-align: center;
+}
+ .sign-up .buttonsign{
+      margin-left: 300px; 
+     display: block;
  }
  .services{
     display: flex;
@@ -339,8 +404,8 @@ footer p{
 .services .about-items{
     flex-direction: row;
     color: gray;
-
-}.services .about-items h3{
+}
+.services .about-items h3{
     color: rgb(94, 85, 85);
 }
 
@@ -356,9 +421,16 @@ footer p{
  .sign-up .buttonsign :hover{
      color: rgb(245, 28, 180);
  }
+ .comments h2{
+    font-size: 30px;
+    
+ }
  .comments .comment-inner{
      display: flex;
      color: gray;
+     width: 90%;
+     margin: 0 auto;
+     margin-bottom: 20px;
  }
  
  .subscribe .newsletter.form.name{
@@ -372,7 +444,7 @@ footer p{
  footer{
     
     justify-content: center;
-    background: black;
+    background: #393939;
     color: #998a8a;
     text-align: center;
 
@@ -387,14 +459,20 @@ footer img{
 }
 footer ul{
     list-style: none;
-    
-    justify-content: space-between;
+    margin-left: 130px;
+} 
 
-
+    footer ul li a{
+        font-size: 20px;
+        margin-left: 10px;
+        
 }
 
+footer{
+    padding: 5%;
 
-    footer p{
+}
+ footer p{
         display: inline;
         margin: 0 auto;
         margin-bottom: 25px;
@@ -447,11 +525,16 @@ font-size: 15px;
     margin: 0 auto;
     justify-content: center;
 }
+
 .services{
     display: flex;
 }
 .services .about-items{
     padding: 20px;
+}
+.sign-up img{
+    width: 50px;
+    height: 0 auto;
 }
 
 .sign-up .buttonsign :hover{
@@ -470,9 +553,7 @@ footer hr{
     height: 2px;
     background-color: #0c0c0c;
     margin-top: 30px;
-    margin-left: -32x;
-    
-    
+    margin-left: -32x; 
     
 }
 }
@@ -488,13 +569,16 @@ footer hr{
     .hero .hero-inner h1{
         transform: translate(-50%,-50%);
         margin: 0 auto;
-        
+        margin-left: -280px;
         align-items: center;
+        font-size: 30px;
+        display: inline;
+        margin-bottom: 20px;
 
     }
     .hero .hero-inner p{
         font-size: medium;
-        margin-left: -369px;
+        margin-left: -230px;
         align-items: center;
         font-family: "tomatoe";
         font-weight: bold;
@@ -502,24 +586,55 @@ footer hr{
     }
     .sign-up {
         background-color: whitesmoke;
+        padding-bottom: 20px;
+        
     }
     .sign-up img{
         width: 45%;
         padding-top: 25px;
+        align-items: center;
+        margin: 0 auto;
+         margin-left: 350px; 
+        align-items: center;
+    
         
     }
     .sign-up h2{
-        font-size: 30px;
-        font-weight: bold;
+        font-size: 28px;
+        font-weight: 600;
         color: rgb(90, 82, 82);
+        /* margin-left: 40px; */
+        align-items: center;
+        margin: 0 auto;
+        
+        
     }
     .sign-up p{
-        font-size: 11px;
+        font-size: 15px;
         color: grey;
+        width:50% ;
+        /* margin-left: 261px;   */
+        align-items: center;  
+        margin: 0 auto;    
+    }
+    .sign-up .buttonsign {
+        width: 180px;
+        height: 50px;
+        background-color: chocolate;
+        font-size: 20px;
+        color: white;
+        border-style: none;
+        margin-top: 10px;
+        margin-bottom: 20px;
+         /* margin-left: 480px; */
+         align-items: center;
+         margin: 0 auto;
+        
     }
 
     .services {
         display: flex;
+        padding: 25px;
         
     }
     .services .about-items h3{
@@ -530,43 +645,44 @@ footer hr{
 .services .about-items p{
     color: gray;
 }
+.comments h2{
+    text-align: center;
+    margin: 0 auto;
+}
 
     .comment-inner {
         display: flex;
+        color: grey;
     }
     footer img{ 
-        width: 30px;
-        margin-top: 20px;
+        width: 50px;
+    
         margin-bottom: 40px;
         justify-items: center;
-        margin-left: -751px;
+        margin-left: 0px;
 
     }
     footer ul{
         
         list-style: none;
-        margin: 0 auto;
-        justify-content: space-between;
+        
+        justify-content: center;
         text-align: center;
         padding-top: 20px;
         padding-bottom: 20px;
+        margin-left: 20px;
     }
     footer ul li a{
         font-size: 20px;
+        margin-left: 10px;
+        
     }
-    
-    
-    
-
-
-    
-    }  footer hr{
-        width:467px ; 
+     footer hr{
+        width:100%, ; 
         height: 2px;
         background-color: #111010;
-        margin-top: 30px;
-        margin: 0 auto;}
-
+        margin-bottom: 20px;
+     }
  footer p{
             display: inline;
             margin: 0 auto;
@@ -574,9 +690,9 @@ footer hr{
             
         }   
         
-  
-
     }
+
+    
   
 
 
